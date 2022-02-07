@@ -19,7 +19,7 @@ function App() {
       }),
     })
       .then(res => res.json())
-      .then(res => console.table(res.data));
+      .then(res => console.log(res.data));
   });
 
   return (
